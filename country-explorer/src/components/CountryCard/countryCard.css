@@ -1,0 +1,31 @@
+.country {
+    border: 2px solid var(--blue-dark);
+    border-radius: 31px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+    .country__flag {
+        width: 100%;
+        aspect-ratio: 3 / 2;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+
+    .country__capital {
+        font-weight: 400;
+    }
+
+    .country__button {
+        border: none;
+        background-color: var(--blue-dark);
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 1rem 2rem;
+        border-radius: 15px;
+    }
+}

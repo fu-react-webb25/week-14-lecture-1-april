@@ -1,0 +1,39 @@
+.details {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-end;
+    position: relative;
+
+    .details__close {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        border: none;
+        background-color: transparent;
+        padding: 1rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .details__left {
+        flex: 2;
+        display: grid;
+        gap: .5rem;
+
+        .details__country {
+            font-size: 2rem;
+        }
+
+        .details__capital {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+    }
+
+    .details__list {
+        flex: 3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}

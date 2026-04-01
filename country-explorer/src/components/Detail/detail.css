@@ -1,0 +1,35 @@
+.detail {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .detail__icon {
+        background-color: var(--blue-bg);
+        color: var(--blue-text);
+        width: 72px;
+        padding: 1rem;
+        font-size: 2rem;
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        
+    }
+
+    .detail__icon--yellow {
+        background-color: var(--yellow-bg);
+        color: var(--yellow-text);
+    }
+    
+    .detail__icon--green {
+        background-color: var(--green-bg);
+        color: var(--green-text);
+
+    }
+
+    .detail__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}

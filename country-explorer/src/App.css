@@ -1,0 +1,13 @@
+.app {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 2rem;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+}
